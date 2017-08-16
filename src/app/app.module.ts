@@ -4,9 +4,9 @@ import { NgModule } from '@angular/core';
 // import { SampleComponent } from './components/sample.component';
 import { AppComponent } from './app.component';
 
-// import {SampleModule, ChildComponent, SampleComponent} from 'my-angular-library';
+import {SampleModule, ChildComponent, SampleComponent} from 'my-angular-library';
 
-import {SampleModule} from 'my-angular-library-custom';
+// import {SampleModule} from 'my-angular-library-custom';
 
 @NgModule({
   declarations: [

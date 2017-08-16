@@ -3,12 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import {SampleModule} from 'my-angular-library';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    SampleModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

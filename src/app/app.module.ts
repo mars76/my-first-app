@@ -14,7 +14,7 @@ import {SampleModule, ChildComponent, SampleComponent} from 'my-angular-library'
   ],
   imports: [
     BrowserModule,
-    SampleModule
+    SampleModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
